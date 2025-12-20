@@ -1,0 +1,77 @@
+/* login.css */
+body {
+  background-color: #1a1a1a;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  background-color: #2a2a2a;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  background: #1f1f1f;
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+  outline: none;
+}
+
+.login-box input:focus {
+  border-color: #ff5e3a;
+  box-shadow: 0 0 0 2px #ff5e3a66;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff5e3a;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-box button:hover {
+  background-color: #e84a2f;
+}
+
+.login-box p {
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 20px;
+}
